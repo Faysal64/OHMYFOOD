@@ -129,4 +129,74 @@ table {
   border-spacing: 0;
 }
 
+@media screen and (min-width: 375px) {
+  .widhtlogo {
+    width: 162px;
+    height: 44px;
+  }
+  .height {
+    height: 63px;
+  }
+  .margepos {
+    margin-right: 10px;
+  }
+  .flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .backheader {
+    background-color: #EAEAEA;
+    height: 50px;
+    width: 100%;
+  }
+  .backarticle {
+    width: 100%;
+    height: 370px;
+    background-color: #F6F6F6;
+  }
+  .backfooter {
+    background-color: #353535;
+    width: 100%;
+    height: 186px;
+    color: white;
+  }
+  .widhtlogo2 {
+    width: 139px;
+    height: 27px;
+    color: white;
+  }
+  .backwhite {
+    background-color: white;
+    width: 100%;
+    height: 440px;
+  }
+  .backsection2 {
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+  }
+  .imgpalette {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .cardsection2 {
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: white;
+  }
+  .paddingcard {
+    padding-bottom: 90px;
+  }
+  .marginleft {
+    margin-left: 15px;
+  }
+  .fontsgras {
+    font-weight: bold;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
