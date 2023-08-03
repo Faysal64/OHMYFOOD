@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -74,8 +75,29 @@ p, h1, h2, h3, h4, h5, h6 {
   }
   .backarticle {
     width: 100%;
-    height: 370px;
+    height: 300px;
     background-color: #F6F6F6;
+  }
+  .backbouton {
+    background-image: linear-gradient(#e98ef6, #9356DC);
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .colorboutons {
+    color: white;
+  }
+  .marge {
+    margin-top: 152px;
+  }
+  .margetopbot {
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+  .margetop {
+    margin-top: 20px;
   }
   .backfooter {
     background-color: #353535;
@@ -88,10 +110,50 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 27px;
     color: white;
   }
+  .blocfooter {
+    padding-top: 20px;
+  }
+  .margefooter {
+    margin-right: 10px;
+  }
+  .margefooter2 {
+    margin-right: 15px;
+  }
   .backwhite {
     background-color: white;
     width: 100%;
     height: 440px;
+  }
+  .backfonction {
+    background-color: #f2f2f2;
+    width: 90%;
+    height: 72.38px;
+    border-radius: 20px;
+  }
+  .margeblock {
+    margin-left: 25px;
+  }
+  .margebot {
+    margin-bottom: 30px;
+  }
+  .displayarticle {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 250px 0px 0px;
+    margin-left: -12px;
+  }
+  .backarticle1 {
+    width: 20px;
+    border-radius: 30px;
+    margin-left: -5px;
+    background-color: #9356DC;
+  }
+  .numéro1 {
+    margin-left: 6px;
+    color: white;
+  }
+  .colorV {
+    color: #9356DC;
   }
   .backsection2 {
     width: 100%;
@@ -100,13 +162,19 @@ p, h1, h2, h3, h4, h5, h6 {
   }
   .imgpalette {
     width: 100%;
-    height: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .imgpalette2 {
+    width: 100%;
+    height: 300px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
   }
   .cardsection2 {
-    width: 95%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     border-radius: 15px;
     background-color: white;
   }
@@ -118,6 +186,93 @@ p, h1, h2, h3, h4, h5, h6 {
   }
   .fontsgras {
     font-weight: bold;
+  }
+  .margebot2 {
+    margin-bottom: 20px;
+  }
+  .margeleft2 {
+    margin-left: 15px;
+    padding-top: 50px;
+  }
+  .displaycard {
+    display: flex;
+    justify-content: space-between;
+  }
+  .displaycoeur {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .margecoeur {
+    margin: -35px 30px 50px 0px;
+    padding-bottom: 30px;
+  }
+  .margetopcard {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .displayRow {
+    display: flex;
+    flex-direction: row;
+  }
+  .taillearticle {
+    width: 70%;
+  }
+  .backfonction {
+    background-color: #f2f2f2;
+    width: 90%;
+    height: 72.38px;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+  .backwhite {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  }
+  .displayRow2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .margesection1 {
+    margin-left: 150px;
+  }
+  .taillecard {
+    width: 30%;
+  }
+  .taillecard2 {
+    width: 128%;
+  }
+  .blocfooter2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .blocfooter3 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .margefooter3 {
+    padding-top: 110px;
+    margin-right: 100px;
+  }
+  .paddingfooter {
+    margin-right: 90px;
+  }
+  .paddinglogo {
+    margin-top: 15px;
+  }
+  .marginfooter {
+    margin-right: 45px;
+  }
+  .marginfooter2 {
+    margin-right: 15px;
+  }
+  .marginfooter3 {
+    margin-right: 10px;
+  }
+  .margebot2 {
+    margin-bottom: 20px;
+    width: 80%;
   }
 }
 
