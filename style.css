@@ -53,6 +53,9 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (min-width: 375px) {
+  body {
+    font-family: "roboto";
+  }
   .widhtlogo {
     width: 162px;
     height: 44px;
@@ -68,6 +71,10 @@ p, h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
   }
+  .flexCentre2 {
+    display: flex;
+    align-items: center;
+  }
   .backheader {
     background-color: #EAEAEA;
     height: 50px;
@@ -77,6 +84,21 @@ p, h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 300px;
     background-color: #F6F6F6;
+  }
+  .widhtsec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+    margin-left: 200px;
+  }
+  .flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+  }
+  .marginleftsec {
+    margin-left: 50px;
   }
   .backbouton {
     background-image: linear-gradient(#e98ef6, #9356DC);
@@ -95,6 +117,8 @@ p, h1, h2, h3, h4, h5, h6 {
   .margetopbot {
     margin-top: 35px;
     margin-bottom: 10px;
+    margin-left: 30px;
+    width: 275px;
   }
   .margetop {
     margin-top: 20px;
@@ -138,18 +162,19 @@ p, h1, h2, h3, h4, h5, h6 {
   }
   .displayarticle {
     display: flex;
-    justify-content: space-around;
-    padding: 25px 250px 0px 0px;
-    margin-left: -12px;
+    padding-top: 25px;
+  }
+  .paddingnum {
+    padding-left: 20px;
   }
   .backarticle1 {
-    width: 20px;
+    width: 25px;
     border-radius: 30px;
     margin-left: -5px;
     background-color: #9356DC;
   }
   .numéro1 {
-    margin-left: 6px;
+    margin-left: 8px;
     color: white;
   }
   .colorV {
@@ -160,7 +185,16 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 100%;
     background-color: #f2f2f2;
   }
+  .margebot2 {
+    margin-left: 15px;
+  }
   .imgpalette {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .imgpalette1 {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -172,7 +206,31 @@ p, h1, h2, h3, h4, h5, h6 {
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
   }
+  .imgpalette3 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .cardsection1 {
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: white;
+  }
   .cardsection2 {
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: white;
+  }
+  .cardsection3 {
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: white;
+  }
+  .cardsection4 {
     width: 90%;
     height: 90%;
     border-radius: 15px;
@@ -230,18 +288,84 @@ p, h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
   }
+  .resto {
+    margin-left: 40px;
+  }
   .displayRow2 {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    margin-top: 30px;
   }
-  .margesection1 {
-    margin-left: 150px;
+  .displayRow3 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    margin-top: -150px;
   }
-  .taillecard {
-    width: 30%;
+  .imgpalette {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
   }
-  .taillecard2 {
-    width: 128%;
+  .imgpalette1 {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .imgpalette2 {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .imgpalette3 {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .cardsection1 {
+    width: 90%;
+    height: 55%;
+    border-radius: 15px;
+    background-color: white;
+  }
+  .cardsection2 {
+    width: 90%;
+    height: 55%;
+    border-radius: 15px;
+    background-color: white;
+  }
+  .cardsection3 {
+    width: 90%;
+    height: 55%;
+    border-radius: 15px;
+    background-color: white;
+  }
+  .cardsection4 {
+    width: 90%;
+    height: 55%;
+    border-radius: 15px;
+    background-color: white;
+  }
+  .margeneg {
+    margin-top: -270px;
+  }
+  .paddingcard {
+    padding-bottom: 0px;
+  }
+  .margecoeur {
+    margin: -35px 30px 50px 0px;
+    padding-bottom: 0px;
+  }
+  .backsection2 {
+    width: auto;
+    height: auto;
+    background-color: #f2f2f2;
+    padding-bottom: 0px;
   }
   .blocfooter2 {
     display: flex;
@@ -271,8 +395,7 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-right: 10px;
   }
   .margebot2 {
-    margin-bottom: 20px;
-    width: 80%;
+    margin-bottom: 0px;
   }
 }
 

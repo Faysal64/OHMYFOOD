@@ -1,9 +1,14 @@
 @import "libs/reset.scss";
 
+
 @media screen and (min-width: 375px) {
 
 
     //Général
+
+    body{
+        font-family: 'roboto';
+    }
 
     .margingéral{
         margin-left: 20px;
@@ -11,6 +16,10 @@
 
     .marginbot{
         margin-bottom: 10px;
+    }
+
+    .policetitre{
+        font-family: 'shrikhand';
     }
 
     //header
@@ -35,21 +44,57 @@
         object-fit: cover;
     }
 
+    .spaceB{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .margintitre{
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    .margintitre2{
+        margin-right: 45px;
+        margin-top: 30px;
+    }
+
+    .widhtheart{
+        width: 22px;
+        height: 21px;
+    }
+
+    .marginbot2{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .marginbot3{
+        margin-top: -25px;
+        
+    }
+
+    
+
+
     //section1
 
     .backsection{
-        background-color:  #f2f2f2; ;
+        background-color: #f2f2f2;
+        position: relative;
+        margin-top: -60px;
+        border-radius: 40px 40px 0px 0px;
     }
 
     .border{
         border-bottom: solid 2px #99E2D0;
-        width: 10%;
+        width: 45px;
     }
 
     .bordersection{
         border-radius: 20px;
         background-color: white;
-        width: 90%;
+        width: 95%;
         height: 69px;
     }
 
@@ -105,7 +150,7 @@
     }
 
     .margeboutons{
-        margin-bottom: 30px;
+        padding-bottom: 30px;
         margin-top: 30px;
     }
 

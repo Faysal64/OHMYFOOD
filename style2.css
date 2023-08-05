@@ -53,11 +53,17 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (min-width: 375px) {
+  body {
+    font-family: "roboto";
+  }
   .margingéral {
     margin-left: 20px;
   }
   .marginbot {
     margin-bottom: 10px;
+  }
+  .policetitre {
+    font-family: "shrikhand";
   }
   .widhtlogo {
     width: 197px;
@@ -76,17 +82,43 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 275px;
     object-fit: cover;
   }
+  .spaceB {
+    display: flex;
+    justify-content: space-between;
+  }
+  .margintitre {
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  .margintitre2 {
+    margin-right: 45px;
+    margin-top: 30px;
+  }
+  .widhtheart {
+    width: 22px;
+    height: 21px;
+  }
+  .marginbot2 {
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .marginbot3 {
+    margin-top: -25px;
+  }
   .backsection {
     background-color: #f2f2f2;
+    position: relative;
+    margin-top: -60px;
+    border-radius: 40px 40px 0px 0px;
   }
   .border {
     border-bottom: solid 2px #99E2D0;
-    width: 10%;
+    width: 45px;
   }
   .bordersection {
     border-radius: 20px;
     background-color: white;
-    width: 90%;
+    width: 95%;
     height: 69px;
   }
   .margintop {
@@ -130,7 +162,7 @@ p, h1, h2, h3, h4, h5, h6 {
     justify-content: center;
   }
   .margeboutons {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     margin-top: 30px;
   }
   .backfooter2 {
