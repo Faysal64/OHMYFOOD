@@ -181,8 +181,8 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #9356DC;
   }
   .backsection2 {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     background-color: #f2f2f2;
   }
   .margebot2 {
@@ -190,49 +190,53 @@ p, h1, h2, h3, h4, h5, h6 {
   }
   .imgpalette {
     width: 100%;
+    max-width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
   }
   .imgpalette1 {
     width: 100%;
+    max-width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
   }
   .imgpalette2 {
     width: 100%;
+    max-width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
   }
   .imgpalette3 {
     width: 100%;
+    max-width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
   }
   .cardsection1 {
     width: 90%;
-    height: 90%;
+    height: auto;
     border-radius: 15px;
     background-color: white;
   }
   .cardsection2 {
     width: 90%;
-    height: 90%;
+    height: auto;
     border-radius: 15px;
     background-color: white;
   }
   .cardsection3 {
     width: 90%;
-    height: 90%;
+    height: auto;
     border-radius: 15px;
     background-color: white;
   }
   .cardsection4 {
     width: 90%;
-    height: 90%;
+    height: auto;
     border-radius: 15px;
     background-color: white;
   }

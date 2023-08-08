@@ -198,8 +198,8 @@ $Grey3:#353535;
     
     // Section2
     .backsection2 {
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: auto;
         background-color: #f2f2f2;
         }
 
@@ -209,6 +209,7 @@ $Grey3:#353535;
 
     .imgpalette {
         width: 100%;
+        max-width: 100%;
         height: 300px;
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
@@ -216,6 +217,7 @@ $Grey3:#353535;
     
     .imgpalette1 {
         width: 100%;
+        max-width: 100%;
         height: 300px;
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
@@ -223,6 +225,7 @@ $Grey3:#353535;
     
     .imgpalette2 {
         width: 100%;
+        max-width: 100%;
         height: 300px;
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
@@ -230,6 +233,7 @@ $Grey3:#353535;
     
     .imgpalette3 {
         width: 100%;
+        max-width: 100%;
         height: 300px;
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
@@ -237,7 +241,7 @@ $Grey3:#353535;
     
     .cardsection1{
         width: 90%;
-        height: 90%;
+        height: auto;
         border-radius: 15px;
         background-color: white; 
     }
@@ -246,21 +250,21 @@ $Grey3:#353535;
 
     .cardsection2{
         width: 90%;
-        height: 90%;
+        height: auto;
         border-radius: 15px;
         background-color: white; 
     }
 
     .cardsection3{
         width: 90%;
-        height: 90%;
+        height: auto;
         border-radius: 15px;
         background-color: white; 
     }
 
     .cardsection4{
         width: 90%;
-        height: 90%;
+        height: auto;
         border-radius: 15px;
         background-color: white; 
     }
