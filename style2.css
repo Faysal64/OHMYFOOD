@@ -73,6 +73,15 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .flexCentre1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .spaceB {
+    display: flex;
+    justify-content: space-between;
+  }
   .flexCentre {
     display: flex;
     justify-content: center;
@@ -81,10 +90,6 @@ p, h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 275px;
     object-fit: cover;
-  }
-  .spaceB {
-    display: flex;
-    justify-content: space-between;
   }
   .margintitre {
     margin-left: 25px;
@@ -105,9 +110,48 @@ p, h1, h2, h3, h4, h5, h6 {
   .marginbot3 {
     margin-top: -25px;
   }
+  .flexend {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -30px;
+    overflow: hidden;
+  }
+  .margecoeur {
+    margin-right: 70px;
+    margin-top: 25px;
+  }
+  .coeursolid {
+    margin-right: -10px;
+  }
+  .fa-heart {
+    font-size: 22px;
+  }
+  .fas {
+    font-size: 22px;
+    color: transparent;
+    background-image: linear-gradient(#9356DC, #FF79DA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 200ms;
+    margin-right: -22px;
+  }
+  .fas:hover {
+    opacity: 1;
+    transform: scale(1.6);
+  }
+  .fa-regular.fa-heart:hover {
+    color: transparent;
+  }
+  .fastaille {
+    font-size: 22px;
+  }
   .menu-item_check {
     background-color: #99E2D0;
     padding: 1rem;
+    margin-top: -30px;
+    margin-right: 5px;
   }
   .bordersection {
     border-radius: 20px;
@@ -154,6 +198,7 @@ p, h1, h2, h3, h4, h5, h6 {
   }
   .paddingEURO {
     padding-right: 20px;
+    margin-bottom: 20px;
   }
   .fontbold {
     font-weight: bold;
@@ -209,6 +254,14 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 @media screen and (min-width: 1040px) {
+  .flexCentre1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .margecoeur {
+    margin-left: 20px;
+  }
   .backsection {
     background-color: #f2f2f2;
     position: relative;

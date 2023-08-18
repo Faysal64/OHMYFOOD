@@ -19,7 +19,45 @@ $Grey3:#353535;
 
 
 
+
 @media screen and (min-width: 375px) {
+
+    .loader2{
+        $animation-duration: 3s;
+        position: fixed;
+        display: grid;
+        place-items: center;
+        background-color: #ffffff; 
+        height: 100vh;
+        inset: 0;
+        z-index: 1;
+        opacity: 0.9;
+        animation: diseappear 200ms $animation-duration;
+        animation-fill-mode: forwards;
+        transform-origin: top;
+        color: #9356DC;
+        font-size: 70px;
+        i{
+            animation: spin  $animation-duration infinite linear;
+        }
+     }
+
+    @keyframes diseappear {
+        
+        to{
+            transform: scale(0);
+            
+        }
+    } 
+
+    @keyframes spin {
+        
+        to{
+            transform: rotate(360deg);
+            
+        }
+    } 
+    
 
 
     body {
@@ -60,6 +98,36 @@ $Grey3:#353535;
     }
 
     // Section1
+
+
+    .loader-link {
+    position: relative;
+}
+
+.loader {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 1000;
+}
+
+.loader-link:target .loader {
+    display: block;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 
 
     
@@ -380,6 +448,7 @@ $Grey3:#353535;
 .displayRow{
     display: flex;
     flex-direction: row;
+    width:87%;
 }
 
 .taillearticle{
