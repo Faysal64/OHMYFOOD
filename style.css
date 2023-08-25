@@ -68,8 +68,8 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #9356DC;
     font-size: 70px;
   }
-  .loader2 i {
-    animation: spin 3s infinite linear;
+  .spin-icon {
+    animation: spin 1.5s infinite linear;
   }
   @keyframes diseappear {
     to {

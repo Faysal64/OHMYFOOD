@@ -22,6 +22,8 @@ $Grey3:#353535;
 
 @media screen and (min-width: 375px) {
 
+   
+
     .loader2{
         $animation-duration: 3s;
         position: fixed;
@@ -37,10 +39,13 @@ $Grey3:#353535;
         transform-origin: top;
         color: #9356DC;
         font-size: 70px;
-        i{
-            animation: spin  $animation-duration infinite linear;
-        }
+        
      }
+
+     .spin-icon {
+        animation: spin 1.5s infinite linear;
+    }
+    
 
     @keyframes diseappear {
         
