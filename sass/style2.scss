@@ -88,14 +88,52 @@
 
     //section1
 
+    .paddingEURO2{
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+
+    
+
     .flexend {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-top: -30px;
+        margin-top: -60px;
         overflow: hidden;
-       
+        margin-right: -75px;
+        transition: margin-right 0.5s;
         
+    }
+
+    .flexend:hover {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: -60px;
+        overflow: hidden;
+        margin-right: 0px;
+        transition: margin-right 0.5s;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .icône{
+    font-size: 22px;   
+    color: white; 
+    margin-top: 5px;
+    }
+
+    .menu-item_check{
+        background-color: #99E2D0;
+        padding: 1rem;
+        margin-top: -22px;
+        padding-top: 40px;
+        height: 90px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .overflow{
+        overflow: hidden;
     }
 
     .margecoeur{
@@ -133,13 +171,7 @@
      font-size: 22px;
     }
 
-    .menu-item_check{
-        background-color: #99E2D0;
-        padding: 1rem;
-        margin-top: -30px;
-        margin-right: 5px;
-    }
-
+    
    
 
     .bordersection {
@@ -197,9 +229,15 @@
     }
 
     .paddingEURO{
-        padding-right: 20px;
+        margin-right: 40px;
         margin-bottom: 20px;
     }
+
+    .paddingEURO:hover{
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
 
     .fontbold{
         font-weight: bold;
