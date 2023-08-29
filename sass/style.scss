@@ -42,8 +42,18 @@ $Grey3:#353535;
         
      }
 
+     .bordericon{
+        
+        background-color: $Grey2;
+        padding: 40px;
+        border-radius: 300px;
+        font-size: 80px;
+     }
+
+    
+
      .spin-icon {
-        animation: spin 1.5s infinite linear;
+        animation: spin 0.8s infinite linear;
     }
     
 
@@ -208,12 +218,27 @@ $Grey3:#353535;
         }
      
         .backbouton{
-            background-image: linear-gradient(#e98ef6, $Primary);
+            background-image: linear-gradient(#9356DC, #FF79DA);
             width: 218px;
             height: 50px;
             border-radius: 25px;
             display: flex;
             justify-content: center;
+            box-shadow: 0px 4px 10px 0px #00000040;
+            transition: transform 200ms;
+        }
+
+        .backbouton:hover {
+            opacity: 0.9;
+            transform: scale(1.02);
+            background-image: linear-gradient(#9356DC, #FF79DA) ;
+            width: 218px;
+            height: 50px;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0px 4px 15px 0px #00000059;
+
         }
 
         .colorboutons{
@@ -371,37 +396,17 @@ $Grey3:#353535;
         border-radius: 15px 15px 0px 0px;
     }
     
-    .cardsection1{
-        width: 90%;
-        height: auto;
-        border-radius: 15px;
-        background-color: white; 
-    }
-
-   
-
-    .cardsection2{
-        width: 90%;
-        height: auto;
-        border-radius: 15px;
-        background-color: white; 
-    }
-
-    .cardsection3{
-        width: 90%;
-        height: auto;
-        border-radius: 15px;
-        background-color: white; 
-    }
-
-    .cardsection4{
-        width: 90%;
-        height: auto;
-        border-radius: 15px;
-        background-color: white; 
-    }
-
-    
+    .cardsection1,
+.cardsection2,
+.cardsection3,
+.cardsection4 {
+  position: relative; 
+  width: 90%;
+  height: auto;
+  border-radius: 15px;
+  background-color: white;
+  margin-bottom: 20px; 
+}
 
     .paddingcard{
         padding-bottom: 90px;
@@ -453,7 +458,7 @@ $Grey3:#353535;
 .displayRow{
     display: flex;
     flex-direction: row;
-    width:87%;
+    width:100%;
 }
 
 .taillearticle{
@@ -497,6 +502,11 @@ $Grey3:#353535;
 
 }
 
+.nouveau2{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .nouveau{
     color: #008766;
     border: #99E2D0 solid ;
@@ -505,8 +515,7 @@ $Grey3:#353535;
     background-color: #99E2D0;
     position: absolute;
     margin-top: -150px;
-    margin-left: 410px;
-    
+    right: 10px;
     
  }
 
@@ -521,20 +530,30 @@ $Grey3:#353535;
 }
 
 .displayRow2{
-display: flex;
-justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 padding-bottom: 200px;
 margin-top: 30px;
 margin-right: 250px;
+margin-left: 170px;
+gap: 30px;
 }
 
 
 .displayRow3{
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
     margin-top: -150px;
     margin-right: 250px;
+    margin-left: 170px;
+    gap: 30px;
+    }
+
+    .backarticle {
+        width: 100%;
+        height: 200px;
+        background-color: #F6F6F6;
     }
 
 
@@ -567,7 +586,9 @@ margin-right: 250px;
 }
 
 .cardsection1{
-    width: 200%;
+    position: relative;
+
+    width: 100%;
     height: 230px;
     border-radius: 15px;
     background-color: white; 
@@ -575,7 +596,9 @@ margin-right: 250px;
 }
 
 .cardsection2{
-    width: 200%;
+    position: relative;
+
+    width: 100%;
     height: 230px;
     border-radius: 15px;
     background-color: white; 
@@ -583,14 +606,14 @@ margin-right: 250px;
 }
 
 .cardsection3{
-    width: 200%;
+    width: 100%;
     height: 230px;
     border-radius: 15px;
     background-color: white; 
 }
 
 .cardsection4{
-    width: 200%;
+    width: 100%;
     height: 230px;
     border-radius: 15px;
     background-color: white; 

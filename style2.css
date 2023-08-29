@@ -53,6 +53,40 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (min-width: 375px) {
+  .loader2 {
+    position: fixed;
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.9;
+    animation: diseappear 200ms 3s;
+    animation-fill-mode: forwards;
+    transform-origin: top;
+    color: #9356DC;
+    font-size: 70px;
+  }
+  .bordericon {
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 300px;
+    font-size: 80px;
+  }
+  .spin-icon {
+    animation: spin 0.8s infinite linear;
+  }
+  @keyframes diseappear {
+    to {
+      transform: scale(0);
+    }
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
   body {
     font-family: "roboto";
   }
@@ -112,7 +146,6 @@ p, h1, h2, h3, h4, h5, h6 {
   }
   .paddingEURO2 {
     margin-top: 30px;
-    margin-right: 40px;
   }
   .flexend {
     display: flex;
@@ -145,6 +178,7 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-top: 40px;
     height: 90px;
     border-radius: 0 10px 10px 0;
+    margin-bottom: 10px;
   }
   .overflow {
     overflow: hidden;
@@ -230,12 +264,9 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-left: 15px;
   }
   .paddingEURO {
-    margin-right: 40px;
+    margin-right: 35px;
     margin-bottom: 20px;
-  }
-  .paddingEURO:hover {
-    margin-right: 10px;
-    margin-bottom: 20px;
+    padding-top: 10px;
   }
   .fontbold {
     font-weight: bold;
@@ -247,7 +278,17 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 50px;
   }
   .backboutons {
-    background-image: linear-gradient(#e98ef6, #9356DC);
+    transition: transform 200ms;
+    background-image: linear-gradient(#9356DC, #FF79DA);
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .backboutons:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+    transition: transform 200ms;
+    background-image: linear-gradient(#9356DC, #FF79DA);
     width: 218px;
     height: 50px;
     border-radius: 25px;
