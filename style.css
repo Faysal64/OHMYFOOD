@@ -52,6 +52,332 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+@media screen and (max-width: 375px) {
+  .loader2 {
+    position: fixed;
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.9;
+    animation: diseappear 200ms 3s;
+    animation-fill-mode: forwards;
+    transform-origin: top;
+    color: #9356DC;
+    font-size: 70px;
+  }
+  .bordericon {
+    background-color: #EAEAEA;
+    padding: 40px;
+    border-radius: 300px;
+    font-size: 80px;
+  }
+  .spin-icon {
+    animation: spin 0.8s infinite linear;
+  }
+  @keyframes diseappear {
+    to {
+      transform: scale(0);
+    }
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  body {
+    font-family: "roboto";
+  }
+  .widhtlogo {
+    width: 162px;
+    height: 44px;
+  }
+  .height {
+    height: 63px;
+  }
+  .margepos {
+    margin-right: 10px;
+  }
+  .flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexCentre2 {
+    display: flex;
+    align-items: center;
+  }
+  .backheader {
+    background-color: #EAEAEA;
+    height: 50px;
+    width: 100%;
+  }
+  .loader-link {
+    position: relative;
+  }
+  .loader {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 1000;
+  }
+  .loader-link:target .loader {
+    display: block;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .fa-heart {
+    font-size: 22px;
+  }
+  .fas {
+    font-size: 22px;
+    color: transparent;
+    background-image: linear-gradient(#9356DC, #FF79DA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 200ms;
+    margin-right: -22px;
+  }
+  .fas:hover {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  .fa-regular.fa-heart:hover {
+    color: transparent;
+  }
+  .fastaille {
+    font-size: 22px;
+  }
+  .nouveau {
+    color: #008766;
+    border: #99E2D0 solid;
+    width: 80px;
+    height: 29px;
+    background-color: #99E2D0;
+    position: absolute;
+    margin-top: -280px;
+  }
+  .displayend {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15PX;
+  }
+  .margeN {
+    margin-left: 5px;
+  }
+  .backarticle {
+    width: 100%;
+    height: 300px;
+    background-color: #F6F6F6;
+  }
+  .widhtsec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+    margin-left: 200px;
+  }
+  .flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+  }
+  .marginleftsec {
+    margin-left: 50px;
+  }
+  .backbouton {
+    background-image: linear-gradient(#9356DC, #FF79DA);
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
+    transition: transform 200ms;
+  }
+  .backbouton:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+    background-image: linear-gradient(#9356DC, #FF79DA);
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3490196078);
+  }
+  .colorboutons {
+    color: white;
+  }
+  .marge {
+    margin-top: 152px;
+  }
+  .margetopbot {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 275px;
+  }
+  .margetop {
+    margin-top: 20px;
+  }
+  .backfooter {
+    background-color: #353535;
+    width: 100%;
+    height: 186px;
+    color: white;
+  }
+  .widhtlogo2 {
+    width: 139px;
+    height: 27px;
+    color: white;
+  }
+  .blocfooter {
+    padding-top: 20px;
+  }
+  .margefooter {
+    margin-right: 10px;
+  }
+  .margefooter2 {
+    margin-right: 15px;
+  }
+  .backwhite {
+    background-color: white;
+    width: 100%;
+    height: 440px;
+  }
+  .backfonction {
+    background-color: #f2f2f2;
+    width: 90%;
+    height: 72.38px;
+    border-radius: 20px;
+  }
+  .margeblock {
+    margin-left: 25px;
+  }
+  .margebot {
+    margin-bottom: 30px;
+  }
+  .displayarticle {
+    display: flex;
+    padding-top: 25px;
+  }
+  .paddingnum {
+    padding-left: 20px;
+  }
+  .backarticle1 {
+    width: 25px;
+    border-radius: 30px;
+    margin-left: -5px;
+    background-color: #9356DC;
+  }
+  .numéro1 {
+    margin-left: 8px;
+    color: white;
+  }
+  .colorV {
+    color: #9356DC;
+  }
+  .heart {
+    width: 22px;
+    height: 21px;
+  }
+  .backsection2 {
+    width: auto;
+    height: auto;
+    background-color: #f2f2f2;
+  }
+  .margebot2 {
+    margin-left: 15px;
+  }
+  .imgpalette {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .imgpalette1 {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .imgpalette2 {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .imgpalette3 {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .cardsection1,
+  .cardsection2,
+  .cardsection3,
+  .cardsection4 {
+    position: relative;
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  .paddingcard {
+    padding-bottom: 90px;
+  }
+  .marginleft {
+    margin-left: 15px;
+  }
+  .fontsgras {
+    font-weight: bold;
+  }
+  .margebot2 {
+    margin-bottom: 20px;
+  }
+  .margeleft2 {
+    margin-left: 15px;
+    padding-top: 50px;
+  }
+  .displaycard {
+    display: flex;
+    justify-content: space-between;
+  }
+  .displaycoeur {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .margecoeur {
+    margin: -35px 30px 50px 0px;
+    padding-bottom: 30px;
+  }
+  .margetopcard {
+    margin-top: 10px;
+  }
+}
 @media screen and (min-width: 375px) {
   .loader2 {
     position: fixed;
@@ -382,7 +708,7 @@ p, h1, h2, h3, h4, h5, h6 {
   .displayRow {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 85%;
   }
   .taillearticle {
     width: 70%;
