@@ -837,6 +837,7 @@ template {
     width: 95%;
     height: 69px;
     animation: appear 1s;
+    animation-fill-mode: both;
   }
   .bordersection:nth-child(3) {
     animation-delay: 300ms;
