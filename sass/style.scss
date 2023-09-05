@@ -22,7 +22,7 @@ $Grey3:#353535;
    
 
     .loader2{
-        $animation-duration: 3s;
+        
         position: fixed;
         display: grid;
         place-items: center;
@@ -31,7 +31,7 @@ $Grey3:#353535;
         inset: 0;
         z-index: 1;
         opacity: 0.9;
-        animation: diseappear 200ms $animation-duration;
+        animation: diseappear 200ms ;
         animation-fill-mode: forwards;
         transform-origin: top;
         color: #9356DC;

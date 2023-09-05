@@ -371,7 +371,7 @@ template {
     inset: 0;
     z-index: 1;
     opacity: 0.9;
-    animation: diseappear 200ms 3s;
+    animation: diseappear 200ms;
     animation-fill-mode: forwards;
     transform-origin: top;
     color: #9356DC;
