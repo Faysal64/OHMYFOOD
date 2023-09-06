@@ -6,6 +6,8 @@
 
     //Général
 
+    
+
     .loader2{
         $animation-duration: 3s;
         position: fixed;
@@ -70,6 +72,11 @@
     .policetitre{
         font-family: 'shrikhand';
     }
+
+   .fontbold2{
+    font-weight: bold;
+   }
+    
 
     //header
     .widhtlogo {
@@ -164,7 +171,7 @@
         overflow: hidden;
         margin-right: 0px;
         transition: margin-right 0.5s;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 10px 15px 0 0;
 
 
     }
@@ -286,7 +293,10 @@
         background-color: white;
         width: 95%;
         height: 69px;
+        overflow: hidden;
     }
+    
+
 
     .margintop{
         margin-top: 30px;
@@ -307,15 +317,25 @@
        margin-right: 15px;
         margin-bottom: 20px;
        padding-top: 10px;
+       
     }
 
 
     
 
-   
+    .overtaille{
+        width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
 
     .fontbold{
         font-weight: bold;
+        width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     }
 
     .marginsec{
@@ -466,6 +486,11 @@
         font-family: 'shrikhand';
     }
 
+
+    .fontbold2{
+        font-weight: bold;
+       }
+       
     //header
     .widhtlogo {
       width: 197px;
@@ -527,7 +552,12 @@
         
     }
 
-    
+    .overtaille{
+        width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
 
 
     //section1
@@ -629,7 +659,7 @@
         background-color: white;
         width: 95%;
         height: 69px;
-        
+        overflow: hidden;
         animation: appear 1s;
         animation-fill-mode: both;
     }
@@ -648,7 +678,7 @@
         width: 95%;
         height: 69px;
         animation: appear 1s;
-        
+        overflow: hidden;
     }
 
 
@@ -668,6 +698,7 @@
         position: relative;
         margin-top: -60px;
         border-radius: 40px 40px 0px 0px;
+        overflow: hidden;
     }
 
     .border{
@@ -710,6 +741,10 @@
 
     .fontbold{
         font-weight: bold;
+        width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     }
 
     .marginsec{
